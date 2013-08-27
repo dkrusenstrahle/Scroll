@@ -28,27 +28,34 @@
         </ul>
       </header>
       <section>
-        <h1>Scroll</h1>
+        <h1>
+<a name="scrolljs" class="anchor" href="#scrolljs"><span class="octicon octicon-link"></span></a>Scroll.js</h1>
 
-<p>Scroll is a tiny JavaScript utility that enables smooth scrolling. </p>
+<p>Scroll is a tiny ( <strong>385 bytes</strong> minified with gzip compression enabled) JavaScript utility that enables smooth scrolling. </p>
 
-<p><strong>NOTE</strong> : It uses <code>requestAnimationFrame</code> when available.  </p>
+<h3>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>usage</h3>
 
-<h2>Usage</h2>
-
-<h3>Method</h3>
-
-<div class="highlight"><pre><span class="nb">document</span><span class="p">.</span><span class="nx">scrollTo</span><span class="p">(</span><span class="nx">destination</span><span class="p">[,</span> <span class="nx">duration</span><span class="p">])</span>
+<div class="highlight"><pre><span class="nb">document</span><span class="p">.</span><span class="nx">scrollTo</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">scrollTo</span><span class="p">({</span><span class="nx">top</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span> <span class="nx">left</span><span class="o">:</span><span class="mi">1000</span><span class="p">},</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">scrollTo</span><span class="p">({</span><span class="nx">left</span><span class="o">:</span><span class="mi">1000</span><span class="p">},</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">scrollTo</span><span class="p">({</span><span class="nx">top</span><span class="o">:</span><span class="mi">400</span><span class="p">},</span> <span class="mi">1000</span><span class="p">)</span>
 </pre></div>
 
-<h3>Arguments</h3>
+<h3>
+<a name="params" class="anchor" href="#params"><span class="octicon octicon-link"></span></a>params</h3>
 
 <ul>
 <li>
-<code>destination</code> : (<code>Number</code> or <code>Element</code>) Destination of the scroll. </li>
-<li>
-<code>duration</code>: (<code>Number</code>) Time of the scroll in ms (default is <code>500</code>). </li>
-</ul><h2>MIT License</h2>
+<code>destination</code> : <code>Integer</code> or <code>Object</code>, Destination of the scroll. </li>
+<li>[<code>duration</code>] : <code>Integer</code>, Time of the scroll in milliseconds (default is <code>300</code>). </li>
+</ul><h3>
+<a name="returns" class="anchor" href="#returns"><span class="octicon octicon-link"></span></a>returns</h3>
+
+<p><code>Undefined</code></p>
+
+<h2>
+<a name="mit-license" class="anchor" href="#mit-license"><span class="octicon octicon-link"></span></a>MIT License</h2>
 
 <p>Copyright (c) 2012, Matthias Le Brun</p>
 
